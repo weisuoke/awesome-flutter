@@ -1,0 +1,28 @@
+{
+  "name": "awesome-flutter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn run dumi dev --port=8030",
+    "lint:md": "lint-md *.md",
+    "lint:fix": "lint-md *.md --fix",
+    "build": "yarn run dumi build",
+    "deploy": "bash ./scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weisuoke/awesome-flutter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weisuoke/awesome-flutter/issues"
+  },
+  "homepage": "https://github.com/weisuoke/awesome-flutter#readme",
+  "devDependencies": {
+    "dumi": "^1.0.22",
+    "lint-md": "^0.2.0"
+  }
+}
